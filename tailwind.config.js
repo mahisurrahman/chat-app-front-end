@@ -5,6 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily:{
+      'avent-pro': ["'Advent Pro', sans-serif;"],
+    },
     extend: {},
   },
   plugins: [],

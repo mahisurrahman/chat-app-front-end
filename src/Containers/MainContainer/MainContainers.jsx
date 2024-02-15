@@ -3,7 +3,7 @@ import WorkArea from "../../Components/WorkArea/WorkArea";
 
 const MainContainers = () => {
   return (
-    <div className="w-[90vw] h-[90vh] bg-[#750E21] border-2 border-[#E3651D] rounded-lg grid gap-2 grid-cols-11">
+    <div className="w-[90vw] h-[90vh] bg-[#000000] border-2 border-[#FFED00] rounded-lg grid gap-2 grid-cols-11">
       <div className="col-span-3">
         <Sidebar></Sidebar>
       </div>
