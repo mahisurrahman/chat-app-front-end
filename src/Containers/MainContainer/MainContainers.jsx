@@ -3,11 +3,11 @@ import WorkArea from "../../Components/WorkArea/WorkArea";
 
 const MainContainers = () => {
   return (
-    <div className="w-[90vw] h-[90vh] bg-[#000000] border-2 border-[#FFED00] rounded-lg grid gap-2 grid-cols-11">
-      <div className="col-span-3">
+    <div className="w-full h-full bg-[#000000] grid gap-2 grid-cols-11">
+      <div className="col-span-3 h-full">
         <Sidebar></Sidebar>
       </div>
-      <div className="col-span-8">
+      <div className="col-span-8 h-full">
         <WorkArea></WorkArea>
       </div>
     </div>
