@@ -3,8 +3,8 @@ import WorkArea from "../../Components/WorkArea/WorkArea";
 
 const MainLayout = () => {
   return (
-    <div className="bg-gray-800 w-screen h-screen px-5 py-5">
-      <div className="grid grid-cols-3 gap-2 h-full">
+    <div className="bg-zinc-950 w-screen h-screen text-white font-avent-pro">
+      <div className="grid grid-cols-3 h-screen">
         <div className="col-span-1">
             <Sidebar></Sidebar>
         </div>
