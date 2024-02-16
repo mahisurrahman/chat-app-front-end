@@ -8,12 +8,12 @@ const UserAreaUserCreds = () => {
         <div className="flex gap-3 items-center">
           <FaUserCircle className="text-[3vw] duration-700 hover:cursor-pointer hover:text-green-600 hover:duration-700 text-orange-400"></FaUserCircle>
           <div>
-            <h1 className="text-[1.5vw] text-blue-300">Mahisur Rahaman</h1>
-            <p className="text-[1.1vw] font-bold tracking-widest text-green-400">Online</p>
+            <h1 className="text-[1vw] text-blue-300">Mahisur Rahaman</h1>
+            <p className="text-[0.7vw] uppercase font-bold tracking-widest text-green-400">Online</p>
           </div>
         </div>
         <div>
-         <MdDeleteOutline className="text-[3vw] duration-700 text-lime-500 hover:cursor-pointer hover:text-red-600 hover:duration-700 hover:border-2 hover:rounded-full hover:border-red-600"></MdDeleteOutline>
+         <MdDeleteOutline className="text-[2vw] duration-700 text-red-500 hover:cursor-pointer hover:text-red-600 hover:duration-700 hover:border-2 hover:rounded-full hover:border-red-600"></MdDeleteOutline>
         </div>
       </div>
     </div>
