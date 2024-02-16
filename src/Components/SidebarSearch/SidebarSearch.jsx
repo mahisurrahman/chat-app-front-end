@@ -3,10 +3,10 @@ import { FaSearch } from "react-icons/fa";
 
 const SidebarSearch = () => {
    return (
-      <div className="mb-[2vh] px-[1vw] py-[1vh] flex justify-between bg-zinc-50 text-zinc-950 rounded-lg text-[2vw]">
+      <div className="mb-[2vh] px-[1vw] py-[1vh] flex justify-between border border-indigo-600 text-zinc-100 rounded-lg text-[2vw]">
          <div className="flex gap-[2vw] items-center">
-            <FaSearch></FaSearch>
-            <input className="outline-none" type="text" name="search" placeholder="search" />
+            <FaSearch className="text-purple-400 duration-700 hover:text-yellow-600 hover:cursor-pointer hover:duration-700"></FaSearch>
+            <input className="bg-transparent outline-none" type="text" name="search" placeholder="search" />
          </div>
       </div>
    );
