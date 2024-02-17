@@ -10,3 +10,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* CSS */
+::-webkit-scrollbar {
+    width: 4px; /* Width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #0224e3; /* Color of the scrollbar track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #00ff15; /* Color of the scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #0224e3; /* Color of the scrollbar handle when hovered */
+}
