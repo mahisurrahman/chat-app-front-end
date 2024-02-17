@@ -1,3 +1,5 @@
+import WorkAreaChatSection from "../WorkAreaChatSection/WorkAreaChatSection";
+import WorkAreaChats from "../WorkAreaChats/WorkAreaChats";
 import UserAreaUserCreds from "../WorkAreaUserCreds/UserAreaUserCreds";
 
 const WorkArea = () => {
@@ -7,10 +9,10 @@ const WorkArea = () => {
         <UserAreaUserCreds></UserAreaUserCreds>
       </div>
       <div className="row-span-7">
-
+        <WorkAreaChats></WorkAreaChats>
       </div>
       <div className="row-span-1">
-
+        <WorkAreaChatSection></WorkAreaChatSection>
       </div>
     </div>
   );
