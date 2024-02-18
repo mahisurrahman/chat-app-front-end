@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const SignUp = () => {
   return (
     <Fade cascade damping={0.2} duration={1000}>
-      <div className="bg-gradient-to-br from-lime-600 to-zinc-950 h-screen w-screen px-[10vw] py-[10vh] flex justify-center items-center">
+      <div className="bg-gradient-to-br from-zinc-950 to-lime-600 h-screen w-screen px-[10vw] py-[10vh] flex justify-center items-center">
         <div className="border-2 h-full w-6/12 rounded-xl flex flex-col justify-start items-center py-[5vh] px-[5vw]">
           <h1 className="font-avent-pro text-4xl font-extrabold text-white">
             Sign-Up Here
@@ -53,7 +53,7 @@ const SignUp = () => {
             </Link>
           </div>
           <div className="mt-[4vh]">
-            <button className="px-[2vw] py-[1vh] rounded-lg text-zinc-950 font-extrabold bg-indigo-400 duration-700 hover:cursor-pointer hover:bg-zinc-950 hover:text-indigo-400 hover:duration-700">
+            <button className="px-[2vw] py-[1vh] rounded-lg text-transparent font-extrabold bg-indigo-400 duration-700 hover:cursor-pointer hover:bg-transparent hover:text-indigo-400 hover:duration-700">
               Sign Up With Google
             </button>
           </div>

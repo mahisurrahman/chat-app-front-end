@@ -1,7 +1,8 @@
 import { Fade } from "react-awesome-reveal";
 import Sidebar from "../../Components/Sidebar/Sidebar";
+import OnlineUsers from "../../Components/OnlineUsers/OnlineUsers";
 // import CreateGroups from "../../Pages/CreateGroupsPage/CreateGroups";
-import WorkArea from "../../Components/WorkArea/WorkArea";
+// import WorkArea from "../../Components/WorkArea/WorkArea";
 // import WelcomePage from "../../Pages/WelcomePage/WelcomePage";
 
 const MainLayout = () => {
@@ -15,7 +16,8 @@ const MainLayout = () => {
           <div className="col-span-2">
             {/* <CreateGroups></CreateGroups> */}
             {/* <WelcomePage></WelcomePage> */}
-            <WorkArea></WorkArea>
+            {/* <WorkArea></WorkArea> */}
+            <OnlineUsers></OnlineUsers>
           </div>
         </div>
       </div>

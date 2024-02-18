@@ -28,7 +28,7 @@ const Login = () => {
             <br />
             <div className="w-full flex justify-center">
               <input
-                className="text-[2vw] font-avent-pro font-extrabold text-white border-2 px-[4vw] py-[1vh] rounded-lg duration-700 hover:duration-700 hover:bg-zinc-950 hover:border-zinc-950 hover:cursor-pointer"
+                className="text-[2vw] font-avent-pro font-extrabold text-white border-2 px-[4vw] py-[1vh] rounded-lg duration-700 hover:duration-700 hover:bg-transparent hover:border-transparent hover:cursor-pointer"
                 type="submit"
                 value="Login"
               />
@@ -45,7 +45,7 @@ const Login = () => {
             </Link>
           </div>
           <div className="mt-[4vh]">
-            <button className="px-[2vw] py-[1vh] rounded-lg text-zinc-950 font-extrabold bg-lime-400 duration-700 hover:cursor-pointer hover:bg-zinc-950 hover:text-lime-400 hover:duration-700">
+            <button className="px-[2vw] py-[1vh] rounded-lg text-transparent font-extrabold bg-lime-400 duration-700 hover:cursor-pointer hover:bg-transparent hover:text-lime-400 hover:duration-700">
               Login With Google
             </button>
           </div>
