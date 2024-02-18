@@ -46,7 +46,7 @@ const SignUp = () => {
             <h1>
               Old to<span className="text-indigo-400">WizCats Chats</span>?
             </h1>
-            <Link to="/login">
+            <Link to="/">
               <button className="px-[2vw] py-[1vh] border rounded-lg bg-black border-black duration-700 hover:duration-700 hover:bg-transparent hover:border-white hover:cursor-pointer">
                 Login
               </button>

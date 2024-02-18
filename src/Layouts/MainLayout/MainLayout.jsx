@@ -1,9 +1,6 @@
 import { Fade } from "react-awesome-reveal";
 import Sidebar from "../../Components/Sidebar/Sidebar";
-import OnlineUsers from "../../Components/OnlineUsers/OnlineUsers";
-// import CreateGroups from "../../Pages/CreateGroupsPage/CreateGroups";
-// import WorkArea from "../../Components/WorkArea/WorkArea";
-// import WelcomePage from "../../Pages/WelcomePage/WelcomePage";
+// import { Outlet } from "react-router-dom";
 
 const MainLayout = () => {
   return (
@@ -14,10 +11,7 @@ const MainLayout = () => {
             <Sidebar></Sidebar>
           </div>
           <div className="col-span-2">
-            {/* <CreateGroups></CreateGroups> */}
-            {/* <WelcomePage></WelcomePage> */}
-            {/* <WorkArea></WorkArea> */}
-            <OnlineUsers></OnlineUsers>
+            
           </div>
         </div>
       </div>

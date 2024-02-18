@@ -25,7 +25,6 @@ const OnlineUsers = () => {
         </div>
         <div className="mt-[1vh] overflow-y-auto max-h-[70vh]">
           <OnlineUserSingle></OnlineUserSingle>
-          
         </div>
       </div>
     </div>
