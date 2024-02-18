@@ -4,7 +4,7 @@ import SidebarSearch from "../SidebarSearch/SidebarSearch";
 
 const Sidebar = () => {
   return (
-    <div className="bg-zinc-950 w-full h-full px-[1vw] py-[1vh] flex flex-col">
+    <div className="bg-zinc-950 w-full h-full px-[1vw] py-[2vh] flex flex-col">
         <SidebarNav></SidebarNav>
         <SidebarSearch></SidebarSearch>
         <SidebarChats></SidebarChats>
