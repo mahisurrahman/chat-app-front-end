@@ -4,17 +4,19 @@ import { FaUsers } from "react-icons/fa";
 import { GoPlusCircle } from "react-icons/go";
 import "./sidebarNav.css";
 import { Link } from "react-router-dom";
+import { IoHome } from "react-icons/io5";
 
 const SidebarNav = () => {
 
   return (
-    <div className="mb-[2vh] px-[1vw] py-[2vh] flex justify-between border border-indigo-600 text-zinc-100 rounded-lg text-[2vw] drop-shadow-kit">
+    <div className="mb-[2vh] px-[1vw] py-[8vh] md:py-[2vh] flex flex-col md:flex-row gap-40 md:gap-0 justify-start md:justify-between items-center md:h-15 text-zinc-100 rounded-lg text-[10vw] md:text-[2vw]">
       <div>
-        <Link to="/app/welcome">
           <FaRegUserCircle className="duration-700 text-purple-400 hover:text-red-600 hover:cursor-pointer hover:duration-700"></FaRegUserCircle>
-        </Link>
       </div>
-      <div className="flex gap-4">
+      <div className="flex flex-col md:flex-row gap-10 md:gap-4">
+        <Link to="/app/welcome">
+          <IoHome className="text-purple-400 duration-700 hover:text-red-600 hover:cursor-pointer hover:duration-700"></IoHome>
+        </Link>
         <Link to="/app/users">
           <FaUserPlus className="text-purple-400 duration-700 hover:text-red-600 hover:cursor-pointer hover:duration-700"></FaUserPlus>
         </Link>
