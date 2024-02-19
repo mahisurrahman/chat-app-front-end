@@ -1,8 +1,10 @@
 import { FaUserCircle } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 const ChatItems = () => {
+  const navigate = useNavigate();
   return (
-    <div className="duration-700 w-full font-poppins mb-[2vh] hover:text-blue-400 hover:cursor-pointer hover:duration-700 py-[0.5vh]">
+    <div onClick={()=>{navigate('chat')}} className="duration-700 w-full font-poppins mb-[2vh] hover:bg-zinc-600 hover:cursor-pointer hover:duration-700 py-[0.5vh] px-[0.5vw] rounded-lg">
       <div className="flex items-center gap-[1vw] w-full">
         <div>
           <FaUserCircle className="text-[3vw] text-indigo-600"></FaUserCircle>
