@@ -12,10 +12,10 @@ const Login = () => {
           <form className="w-full mt-[6vh]">
             <input
               className="w-full mb-[5vh] px-[1vw] py-[2vh] outline-none rounded-lg border-none"
-              type="email"
-              name="email"
+              type="text"
+              name="name"
               id=""
-              placeholder="Email"
+              placeholder="username"
             />
             <br />
             <input
