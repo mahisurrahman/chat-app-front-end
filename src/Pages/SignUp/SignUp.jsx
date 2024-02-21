@@ -2,6 +2,17 @@ import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 
 const SignUp = () => {
+
+  const handleSignIn = event =>{
+    event.preventDefault();
+    const form = event.target;
+    const name = form.name.value;
+    const email = form.email.value;
+    const password = form.password.value;
+    console.log(name, email, password);
+  }
+
+
   return (
     <Fade cascade damping={0.2} duration={1000}>
       <div className="bg-gradient-to-br from-zinc-950 to-lime-600 h-screen w-screen px-[10vw] py-[10vh] flex justify-center items-center">
@@ -9,7 +20,7 @@ const SignUp = () => {
           <h1 className="font-avent-pro text-4xl font-extrabold text-white">
             Sign-Up Here
           </h1>
-          <form className="w-full mt-[4vh]">
+          <form onSubmit={handleSignIn} className="w-full mt-[4vh]">
             <input
               className="w-full mb-[5vh] px-[1vw] py-[1.5vh] outline-none rounded-lg border-none"
               type="text"
@@ -53,7 +64,7 @@ const SignUp = () => {
             </Link>
           </div>
           <div className="mt-[4vh]">
-            <button className="px-[2vw] py-[1vh] rounded-lg text-transparent font-extrabold bg-indigo-400 duration-700 hover:cursor-pointer hover:bg-transparent hover:text-indigo-400 hover:duration-700">
+            <button className="px-[2vw] py-[1vh] rounded-lg text-black font-extrabold bg-indigo-400 duration-700 hover:cursor-pointer hover:bg-transparent hover:text-indigo-400 hover:duration-700">
               Sign Up With Google
             </button>
           </div>

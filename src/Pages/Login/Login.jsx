@@ -45,7 +45,7 @@ const Login = () => {
             </Link>
           </div>
           <div className="mt-[4vh]">
-            <button className="px-[2vw] py-[1vh] rounded-lg text-transparent font-extrabold bg-lime-400 duration-700 hover:cursor-pointer hover:bg-transparent hover:text-lime-400 hover:duration-700">
+            <button className="px-[2vw] py-[1vh] rounded-lg text-black font-extrabold bg-lime-400 duration-700 hover:cursor-pointer hover:bg-transparent hover:text-lime-400 hover:duration-700">
               Login With Google
             </button>
           </div>

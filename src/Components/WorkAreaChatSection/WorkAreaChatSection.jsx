@@ -13,7 +13,7 @@ const WorkAreaChatSection = () => {
           wrap="soft"
         ></textarea>{" "}
         <button>
-          <IoSend className="duration-700 hover:duration-700 hover:text-green-600 hover:cursor-pointer"></IoSend>
+          <IoSend className="text-2xl duration-700 hover:duration-700 hover:text-green-600 hover:cursor-pointer"></IoSend>
         </button>
       </div>
   );
